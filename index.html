@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Forms</title>
+</head>
+<body>
+   <form action="">
+    <h2>Information</h2>
+    <label for="username">USERNAME : </label>
+    <input type="text" id="username"> 
+    <br><br>
+
+    <label for="password">Password : </label>
+    <input type="password" id="password"> 
+    
+    <br><br>
+
+    <label for="email">Email Address : </label>
+    <input type="text" id="email">
+
+
+
+    <br><br>
+    <p>Enter Your Gender</p>
+
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male" value="Male">
+    <br>
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female" value="Female">
+    <br>
+    <label for="other">Others</label>
+    <input type="radio" name="gender" id="Other" value="others">
+
+<!-- here name should be same, so that when you select
+ one gender and click to the other, the first gender will
+ be automatically removed. -->
+
+
+ <!-- value is used to sent the required value to the 
+  backend of the website. -->
+    <br><br>
+    <input type="submit" value="Submit Now">
+    <br><br>
+   </form>
+
+</body>
+</html>
